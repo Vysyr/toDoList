@@ -14,6 +14,8 @@ struct todo {
 	int zadania_size = 0;
 };
 
+void sort(todo* lista);
+
 void add_task(todo* lista, task* zadanie);
 
 void rm_task(todo* lista, int index);

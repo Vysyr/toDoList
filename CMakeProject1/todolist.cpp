@@ -1,10 +1,32 @@
 #include "todolist.h"
 
 
+void sort(todo* lista)
+{
+	bool swap = false;
+	for (int i = 0; i < lista->zadania_size - 1; i++) {
+		swap = false;
+		for (int j = 0; j < lista->zadania_size - i - 1; j++) {
+			int days1 = how_many_days_until(lista->zadania[j].deadline);
+			int days2 = how_many_days_until(lista->zadania[j + 1].deadline);
+			if (days1 > days2) {
+				swap = true;
+				task tmp = create_task(lista->zadania[j].name, lista->zadania[j].deadline);
+				lista->zadania[j] = lista->zadania[j + 1];
+				lista->zadania[j + 1] = tmp;
+			}
+		}
+		if (swap == false) {
+			return;
+		}
+	}
+}
+
 void add_task(todo* lista, task* zadanie)
 {
 	lista->zadania[lista->zadania_size] = *zadanie;
 	lista->zadania_size++;
+	sort(lista);
 }
 
 void rm_task(todo* lista, int index)
