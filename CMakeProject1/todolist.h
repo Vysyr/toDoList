@@ -1,9 +1,12 @@
 #pragma once
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include "date.h"
 
 struct task {
 	const char* name;
+	date* deadline;
 };
 
 struct todo {
@@ -13,8 +16,10 @@ struct todo {
 
 void add_task(todo* lista, task* zadanie);
 
-void rm_task(int index);
+void rm_task(todo* lista, int index);
 
-task create_task(char* name);
+task create_task(char* name, date* deadline);
 
 void test(todo lista);
+
+void clean_memory(todo* lista);

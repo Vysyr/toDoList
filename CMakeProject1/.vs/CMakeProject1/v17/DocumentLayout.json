@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\CMakeProject1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeProject1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\todolist.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:todolist.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\todolist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:todolist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\date.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:date.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\date.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:date.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\CMakeProject1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeProject1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "date.cpp",
+              "DocumentMoniker": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\date.cpp",
+              "RelativeDocumentMoniker": "date.cpp",
+              "ToolTip": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\date.cpp",
+              "RelativeToolTip": "date.cpp",
+              "ViewState": "AQIAACwAAAAAAAAAAADwvx4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-02T14:12:33.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "date.h",
+              "DocumentMoniker": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\date.h",
+              "RelativeDocumentMoniker": "date.h",
+              "ToolTip": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\date.h",
+              "RelativeToolTip": "date.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-02T14:12:19.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "todolist.h",
+              "DocumentMoniker": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\todolist.h",
+              "RelativeDocumentMoniker": "todolist.h",
+              "ToolTip": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\todolist.h",
+              "RelativeToolTip": "todolist.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-02T13:46:05.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "todolist.cpp",
+              "DocumentMoniker": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\todolist.cpp",
+              "RelativeDocumentMoniker": "todolist.cpp",
+              "ToolTip": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\todolist.cpp",
+              "RelativeToolTip": "todolist.cpp",
+              "ViewState": "AQIAACcAAAAAAAAAAAAlwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-02T13:46:04.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CMakeProject1.h",
+              "DocumentMoniker": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\CMakeProject1.h",
+              "RelativeDocumentMoniker": "CMakeProject1.h",
+              "ToolTip": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\CMakeProject1.h",
+              "RelativeToolTip": "CMakeProject1.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-02T13:46:03.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CMakeProject1.cpp",
+              "DocumentMoniker": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\CMakeProject1.cpp",
+              "RelativeDocumentMoniker": "CMakeProject1.cpp",
+              "ToolTip": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\CMakeProject1.cpp",
+              "RelativeToolTip": "CMakeProject1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-02T13:46:01.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "CMakeLists.txt",
+              "ToolTip": "C:\\Users\\Pawe\u0142 Szudarek\\source\\repos\\toDoList\\toDoList\\CMakeProject1\\CMakeLists.txt",
+              "RelativeToolTip": "CMakeLists.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-02T13:44:49.888Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
