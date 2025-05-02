@@ -6,6 +6,9 @@
 int main()
 {
 	menu();
+
+
+
 	//todo list;
 	//char nazwa[100];
 	//date *data, *data2;

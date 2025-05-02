@@ -58,17 +58,24 @@ void task_creator(todo* list)
 
 void menu() {
 	bool quit = false;
-	todo list;
+	todo* list = read_from_file();
+	if (list == NULL) {
+		list = (todo*)malloc(sizeof(todo));
+		list->zadania = (task*)malloc(sizeof(task) * 100);
+		list->zadania_size = 0;
+	}
+		
 	int select = 0;
 	//tu bedzie wczytanie z pliku(jesli taki istnieje) i deszyfrowanie
 	while (!quit) {
 		system("cls");
 		printf("-1  exit\n 0 add task\n 1+ delete task\n\n");
-		print_list(&list);
+		print_list(list);
 		printf("Selection: ");
 		scanf("%d", &select);
-		quit = handle_selection(&list, select);
+		quit = handle_selection(list, select);
 	}
 	//tu bedzie zapis do pliku i szyfrowanie
-	clean_memory(&list);
+	save_to_file(list);
+	clean_memory(list);
 }

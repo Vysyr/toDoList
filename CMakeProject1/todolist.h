@@ -5,7 +5,7 @@
 #include "date.h"
 
 struct task {
-	const char* name;
+	char* name;
 	date* deadline;
 };
 
