@@ -5,28 +5,29 @@
 
 int main()
 {
-	todo list;
-	char nazwa[100];
-	date *data, *data2;
-	data = get_today_date();
-	data2 = string_2_date((char*)"02.06.2025");
-	printf("Nazwa zadania1: ");
-	scanf("%99s", &nazwa);
-	task zadanie1 = create_task(nazwa, data);
-	printf("Nazwa zadania2: ");
-	scanf("%99s", &nazwa);
-	task zadanie2 = create_task(nazwa, data2);
-	printf("Nazwa zadania3: ");
-	scanf("%99s", &nazwa);
-	task zadanie3 = create_task(nazwa, data2);
-	add_task(&list, &zadanie1);
-	add_task(&list, &zadanie2);
-	add_task(&list, &zadanie3);
-	test(list);
-	rm_task(&list, 1);
-	test(list);
+	menu();
+	//todo list;
+	//char nazwa[100];
+	//date *data, *data2;
+	//data = get_today_date();
+	//data2 = string_2_date((char*)"02.06.2025");
+	//printf("Nazwa zadania1: ");
+	//scanf("%99s", &nazwa);
+	//task zadanie1 = create_task(nazwa, data);
+	//printf("Nazwa zadania2: ");
+	//scanf("%99s", &nazwa);
+	//task zadanie2 = create_task(nazwa, data2);
+	//printf("Nazwa zadania3: ");
+	//scanf("%99s", &nazwa);
+	//task zadanie3 = create_task(nazwa, data2);
+	//add_task(&list, &zadanie1);
+	//add_task(&list, &zadanie2);
+	//add_task(&list, &zadanie3);
+	//test(list);
+	//rm_task(&list, 1);
+	//test(list);
 
-	clean_memory(&list);
+	//clean_memory(&list);
 
 	//date* data;
 	//data = create_date(7,12,2025);

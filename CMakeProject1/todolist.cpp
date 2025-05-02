@@ -9,13 +9,12 @@ void add_task(todo* lista, task* zadanie)
 
 void rm_task(todo* lista, int index)
 {
-	if (lista->zadania_size > 0 && (index > 0 && index < lista->zadania_size)) {
+	if (lista->zadania_size > 0 && (index >= 0 && index < lista->zadania_size)) {
 		free((char*)lista->zadania[index].name);
 		free((char*)lista->zadania[index].deadline);
 		for (int i = index; i < lista->zadania_size - 1; i++) {
 			lista->zadania[i] = lista->zadania[i + 1];
 		}
-		//delete(&lista->zadania[lista->zadania_size - 1]);
 		lista->zadania_size--;
 	}
 }

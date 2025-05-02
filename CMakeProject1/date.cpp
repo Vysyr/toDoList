@@ -1,5 +1,24 @@
 ﻿#include "date.h"
 
+int is_leap_year(int year)
+{
+	return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+}
+
+int days_in_month(int month, int year)
+{
+	switch (month) {
+	case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+		return 31;
+	case 4: case 6: case 9: case 11:
+		return 30;
+	case 2:
+		return is_leap_year(year) ? 29 : 28;
+	default:
+		return 0;
+	}
+}
+
 date* create_date(int d, int m, int y)
 {
 	date* dat = (date*)malloc(sizeof(date));
@@ -13,6 +32,8 @@ date* create_date(int d, int m, int y)
 date* string_2_date(char* s)
 {
 	int d, m, y;
+	if (s == NULL)
+		return NULL;
 	// Spróbuj sparsować datę w formacie "DD-MM-YYYY" lub "DD/MM/YYYY"
 	if (sscanf(s, "%d-%d-%d", &d, &m, &y) != 3 &&
 		sscanf(s, "%d/%d/%d", &d, &m, &y) != 3 &&
@@ -59,7 +80,28 @@ int how_many_days_until(date* d)
 	return days;
 }
 
-void print_date(date* d)
+char* print_date(date* d)
 {
-	printf("%d.%d.%d", d->day, d->month, d->year);
+	if (d == NULL) return NULL;
+	char* buffer = (char*)malloc(11);
+	if (buffer != NULL) {
+		sprintf(buffer, "%02d.%02d.%04d", d->day, d->month, d->year);
+	}
+	return buffer;
+}
+
+date* validate_date(date* data, char* str)
+{
+	data = string_2_date(str);
+	if (data == NULL)
+		return NULL;
+
+	if (data->year < 1 || data->month < 1 || data->month > 12)
+		return NULL;
+
+	int max_day = days_in_month(data->month, data->year);
+	if (data->day < 1 || data->day > max_day)
+		return NULL;
+
+	return data;
 }
