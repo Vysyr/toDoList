@@ -24,6 +24,9 @@ bool handle_selection(todo* list, int sel)
 		// wyjscie
 		return true;
 	}
+	else if (sel == -10) {
+		print_calendar(list);
+	}
 	return false;
 }
 
@@ -36,7 +39,15 @@ void task_creator(todo* list)
 	date* deadline = NULL;
 	task* t = NULL;
 	printf("Task name: ");
-	scanf("%99s", &nazwa);
+	getchar(); //ignoruje \n poprzedni
+	fgets(nazwa, sizeof(nazwa), stdin); // zapisuje cala linie razem z \n
+	//wyczyszczenie inputu z niepozadanych znakow
+	for (int i = 0; i < sizeof(nazwa); i++) {
+		if (nazwa[i] == '\n' || nazwa[i] == ',' || nazwa[i] == '/') {
+			nazwa[i] = ' ';
+		}
+	}
+	
 	do {
 		printf("Deadline (dd-mm-yyyy): ");
 		scanf("%10s", data);
@@ -58,24 +69,25 @@ void task_creator(todo* list)
 
 void menu() {
 	bool quit = false;
+	//wczytanie z pliku i deszyfrowanie
 	todo* list = read_from_file();
+	//jesli plik nie istnieje lub jest uszkodzony
 	if (list == NULL) {
 		list = (todo*)malloc(sizeof(todo));
 		list->zadania = (task*)malloc(sizeof(task) * 100);
 		list->zadania_size = 0;
 	}
-		
+		//glowna petla programu
 	int select = 0;
-	//tu bedzie wczytanie z pliku(jesli taki istnieje) i deszyfrowanie
 	while (!quit) {
 		system("cls");
-		printf("-1  exit\n 0 add task\n 1+ delete task\n\n");
+		printf(" -10 calendar view\n -1  exit\n 0 add task\n 1+ delete task\n\n");
 		print_list(list);
 		printf("Selection: ");
 		scanf("%d", &select);
 		quit = handle_selection(list, select);
 	}
-	//tu bedzie zapis do pliku i szyfrowanie
+	//zapis do pliku i szyfrowanie
 	save_to_file(list);
 	clean_memory(list);
 }

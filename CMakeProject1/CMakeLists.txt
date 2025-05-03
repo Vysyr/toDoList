@@ -3,7 +3,7 @@
 #
 
 # Dodaj źródło do pliku wykonywalnego tego projektu.
-add_executable (CMakeProject1 "CMakeProject1.cpp" "CMakeProject1.h" "todolist.h" "todolist.cpp" "date.h" "date.cpp" "menu.h" "menu.cpp" "files.h" "files.cpp")
+add_executable (CMakeProject1 "CMakeProject1.cpp" "CMakeProject1.h" "todolist.h" "todolist.cpp" "date.h" "date.cpp" "menu.h" "menu.cpp" "files.h" "files.cpp" "calendar.h" "calendar.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CMakeProject1 PROPERTY CXX_STANDARD 20)

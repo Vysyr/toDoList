@@ -4,6 +4,8 @@
 #include "todolist.h"
 #include "date.h"
 #include "files.h"
+#include <string.h>
+#include "calendar.h"
 
 void print_list(todo* list);
 
