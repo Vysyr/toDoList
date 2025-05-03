@@ -25,4 +25,7 @@ char* print_date(date* d);
 
 date* validate_date(date* data, char* str);
 
+bool compare_dates(date* d1, date* d2);
+
+
 

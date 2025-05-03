@@ -105,3 +105,11 @@ date* validate_date(date* data, char* str)
 
 	return data;
 }
+
+bool compare_dates(date* d1, date* d2)
+{
+	if (d1->day == d2->day && d1->month == d2->month && d1->year == d2->year) {
+		return true;
+	}
+	return false;
+}
